@@ -1,0 +1,27 @@
+package:
+  name: aff-coroutines
+  publish:
+    license: MIT
+    version: 9.0.0
+    location:
+      githubOwner: purescript-contrib
+      githubRepo: purescript-aff-coroutines
+  dependencies:
+    - aff
+    - avar
+    - coroutines
+    - effect
+    - either
+    - freet
+    - newtype
+    - prelude
+    - transformers
+  test:
+    main: Test.Main
+    dependencies:
+      - console
+      - maybe
+workspace:
+  extraPackages: {}
+  packageSet:
+    registry: 60.5.0
